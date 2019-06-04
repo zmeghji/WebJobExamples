@@ -1,0 +1,21 @@
+﻿@addTagHelper "*, Microsoft.AspNetCore.Mvc.TagHelpers"
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" asp-href-include="css/styles.min.css" />
+    <title>Web Jobs Example Site</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">Web Jobs</a>
+        </nav>
+
+        <div class="container-fluid">
+            @RenderBody()
+        </div>
+    </div>
+</body>
+</html>
